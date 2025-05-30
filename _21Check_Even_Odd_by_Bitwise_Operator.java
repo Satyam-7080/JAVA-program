@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class _21Check_Even_Odd_by_Bitwise_Operator {
+    public static void main(String[] args) {
+        System.out.println("Check the number is even or odd using bitwise operator: ");
+        System.out.print("Please enter the number: ");
+        Scanner input = new Scanner(System.in);
+        long num = input.nextLong();
+        if ((num & 1) == 1)
+        {
+
+            System.out.println(num + " is odd number.");
+        } else
+        {
+            System.out.println(num + " is even number.");
+        }
+    }   
+}
